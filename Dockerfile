@@ -42,9 +42,9 @@ nginx -g "daemon off;"' > /app/start.sh && chmod +x /app/start.sh
 EXPOSE 80
 
 # Set environment variables
-ENV OPENAI_API_KEY="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"
-ENV GOOGLE_API_KEY="AIzaSyAJdNRcZTU2a19yw59-mp2kGm_iLLArXUk"
-ENV SEARCH_ENGINE_ID="b2cc66cf8a84f48ab"
+ENV OPENAI_API_KEY=""
+ENV GOOGLE_API_KEY=""
+ENV SEARCH_ENGINE_ID=""
 
 # Run the start script
 CMD ["/app/start.sh"]
