@@ -2,7 +2,7 @@ import openai
 import os
 
 # Set your API key
-client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY", "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"))
+client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
 
 # Test the chat completion
 def test_openai():

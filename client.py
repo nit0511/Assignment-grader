@@ -11,9 +11,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # HARDCODED API KEYS - DO NOT SHARE THIS FILE
-OPENAI_API_KEY = "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"
-GOOGLE_API_KEY = "AIzaSyB0tdvgTbE72jDVLnM56rWAfzVm7UlljWQ"
-GOOGLE_CX = "4642b937b1a204219"
+OPENAI_API_KEY = ""
+GOOGLE_API_KEY = ""
+GOOGLE_CX = ""
 
 # Initialize session state variables
 if 'api_server_url' not in st.session_state:
